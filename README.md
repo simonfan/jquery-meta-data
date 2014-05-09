@@ -1,0 +1,3 @@
+# jquery-meta-data[![Build Status](https://secure.travis-ci.org/simonfan/jquery-meta-data.png?branch=master)](http://travis-ci.org/simonfan/jquery-meta-data)
+
+Some module...

@@ -1,0 +1,1 @@
+define(["require","exports","module","lodash","./helpers"],function(e,t,n){var r=e("lodash"),i=e("./helpers");t.single=function(t,n,r,s){var o=i.fullKey(n.prefix,r);s=n.stringify?n.stringify(s,r,o):s,t.data(o,s)},t.multiple=function(n,i,s){r.each(s,function(e,r){t.single(n,i,r,e)})}});

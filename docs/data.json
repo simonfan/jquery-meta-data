@@ -1,0 +1,229 @@
+{
+    "project": {
+        "name": "jquery-meta-data",
+        "version": "0.0.0"
+    },
+    "files": {
+        "src/__jquery-meta-data/helpers.js": {
+            "name": "src/__jquery-meta-data/helpers.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/__jquery-meta-data/read.js": {
+            "name": "src/__jquery-meta-data/read.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/__jquery-meta-data/set.js": {
+            "name": "src/__jquery-meta-data/set.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/index.js": {
+            "name": "src/index.js",
+            "modules": {
+                "jquery-meta-data": 1
+            },
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        }
+    },
+    "modules": {
+        "jquery-meta-data": {
+            "name": "jquery-meta-data",
+            "submodules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {},
+            "tag": "module",
+            "file": "src/index.js",
+            "line": 5,
+            "description": "AMD module."
+        }
+    },
+    "classes": {},
+    "classitems": [
+        {
+            "file": "src/__jquery-meta-data/helpers.js",
+            "line": 10,
+            "description": "Creates a Regular Expression to capture property name.",
+            "class": ""
+        },
+        {
+            "file": "src/__jquery-meta-data/helpers.js",
+            "line": 19,
+            "description": "Returns the string with the first letter to lowercase.",
+            "class": ""
+        },
+        {
+            "file": "src/__jquery-meta-data/helpers.js",
+            "line": 26,
+            "description": "Returns the string with the first letter to uppercase.",
+            "class": ""
+        },
+        {
+            "file": "src/__jquery-meta-data/helpers.js",
+            "line": 33,
+            "itemtype": "method",
+            "name": "fullKey",
+            "params": [
+                {
+                    "name": "prefix",
+                    "description": ""
+                },
+                {
+                    "name": "key",
+                    "description": ""
+                }
+            ],
+            "class": ""
+        },
+        {
+            "file": "src/__jquery-meta-data/read.js",
+            "line": 12,
+            "class": ""
+        },
+        {
+            "file": "src/__jquery-meta-data/read.js",
+            "line": 70,
+            "itemtype": "method",
+            "name": "single",
+            "params": [
+                {
+                    "name": "el",
+                    "description": "",
+                    "type": "JqObject"
+                },
+                {
+                    "name": "prefix",
+                    "description": "",
+                    "type": "String",
+                    "optional": true
+                },
+                {
+                    "name": "key",
+                    "description": "",
+                    "type": "String"
+                },
+                {
+                    "name": "parse",
+                    "description": "",
+                    "type": "Function",
+                    "optional": true
+                }
+            ],
+            "class": ""
+        },
+        {
+            "file": "src/__jquery-meta-data/set.js",
+            "line": 8,
+            "class": ""
+        },
+        {
+            "file": "src/__jquery-meta-data/set.js",
+            "line": 24,
+            "class": ""
+        },
+        {
+            "file": "src/index.js",
+            "line": 20,
+            "description": "Holds the sets of options.",
+            "itemtype": "property",
+            "name": "metaSets",
+            "type": "Object",
+            "class": "",
+            "module": "jquery-meta-data"
+        },
+        {
+            "file": "src/index.js",
+            "line": 29,
+            "description": "Sets options",
+            "itemtype": "method",
+            "name": "metaData",
+            "type": "Static",
+            "class": "",
+            "module": "jquery-meta-data"
+        },
+        {
+            "file": "src/index.js",
+            "line": 45,
+            "params": [
+                {
+                    "name": "options",
+                    "description": "",
+                    "type": "Object"
+                },
+                {
+                    "name": "parse",
+                    "description": "",
+                    "type": "Function"
+                },
+                {
+                    "name": "stringify",
+                    "description": "",
+                    "type": "Function"
+                },
+                {
+                    "name": "replace",
+                    "description": "\n         whether to replace unparsed data with parsed data // defaults to true",
+                    "type": "Boolean"
+                },
+                {
+                    "name": "key|values",
+                    "description": "",
+                    "type": "String|Object",
+                    "optional": true
+                },
+                {
+                    "name": "value",
+                    "description": "",
+                    "type": "Whatever",
+                    "optional": true
+                }
+            ],
+            "class": "",
+            "module": "jquery-meta-data"
+        }
+    ],
+    "warnings": [
+        {
+            "message": "replacing incorrect tag: prop with property",
+            "line": " src/index.js:20"
+        },
+        {
+            "message": "Missing item type\nCreates a Regular Expression to capture property name.",
+            "line": " src/__jquery-meta-data/helpers.js:10"
+        },
+        {
+            "message": "Missing item type\nReturns the string with the first letter to lowercase.",
+            "line": " src/__jquery-meta-data/helpers.js:19"
+        },
+        {
+            "message": "Missing item type\nReturns the string with the first letter to uppercase.",
+            "line": " src/__jquery-meta-data/helpers.js:26"
+        },
+        {
+            "message": "Missing item type",
+            "line": " src/__jquery-meta-data/read.js:12"
+        },
+        {
+            "message": "Missing item type",
+            "line": " src/__jquery-meta-data/set.js:8"
+        },
+        {
+            "message": "Missing item type",
+            "line": " src/__jquery-meta-data/set.js:24"
+        },
+        {
+            "message": "Missing item type",
+            "line": " src/index.js:45"
+        }
+    ]
+}
